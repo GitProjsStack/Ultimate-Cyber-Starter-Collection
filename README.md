@@ -1,5 +1,3 @@
-<img src="public/ultimatecyberstartercollection-logo.png" alt="Ultimate Cyber Starter Collection Logo" width="150" />
-
 <h1> Ultimate Cyber Starter Collection </h1>
 A curated collection of the best cybersecurity and computer science learning resources to kickstart your journey into the cyber world.
 
