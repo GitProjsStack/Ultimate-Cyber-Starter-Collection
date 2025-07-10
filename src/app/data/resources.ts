@@ -42,4 +42,41 @@ export const cyberResources: CyberResource[] = [
         url: "https://cryptohack.org/",
         category: "Learning Platform",
     },
+    // Computer Science Basics:
+    {
+        name: "W3Schools",
+        description: "Beginner-friendly tutorials for web and programming.",
+        url: "https://www.w3schools.com/",
+        category: "CS Learning",
+    },
+    {
+        name: "freeCodeCamp",
+        description: "Free courses on programming, algorithms, and projects.",
+        url: "https://www.freecodecamp.org/",
+        category: "CS Learning",
+    },
+    {
+        name: "CS50 by Harvard",
+        description: "Comprehensive intro to CS and programming fundamentals.",
+        url: "https://cs50.harvard.edu/x/2023/",
+        category: "CS Learning",
+    },
+    {
+        name: "The Odin Project",
+        description: "Full-stack web development curriculum with projects.",
+        url: "https://www.theodinproject.com/",
+        category: "CS Learning",
+    },
+    {
+        name: "Git Official Docs",
+        description: "Learn Git basics, version control, and workflows.",
+        url: "https://git-scm.com/doc",
+        category: "CS Learning",
+    },
+    {
+        name: "GeeksforGeeks",
+        description: "Algorithms, data structures, and coding interview prep.",
+        url: "https://www.geeksforgeeks.org/",
+        category: "CS Learning",
+    },
 ];
