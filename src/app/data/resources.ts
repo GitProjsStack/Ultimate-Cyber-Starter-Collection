@@ -1,34 +1,45 @@
 export interface CyberResource {
-  name: string;
-  description: string;
-  url: string;
-  category: string;
+    name: string;
+    description: string;
+    url: string;
+    category: string;
 }
 
 export const cyberResources: CyberResource[] = [
-  {
-    name: "TryHackMe",
-    description: "Learn and practice ethical hacking with gamified labs.",
-    url: "https://tryhackme.com",
-    category: "Ethical Hacking",
-  },
-  {
-    name: "Wireshark",
-    description: "Network protocol analyzer for capturing and inspecting packets.",
-    url: "https://www.wireshark.org/",
-    category: "Tools",
-  },
-  {
-    name: "Linux Journey",
-    description: "A beginner-friendly guide to learning Linux.",
-    url: "https://linuxjourney.com/",
-    category: "Foundations",
-  },
-  {
-    name: "PortSwigger Academy",
-    description: "Free web security training based on real vulnerabilities.",
-    url: "https://portswigger.net/web-security",
-    category: "Web Security",
-  }
-  // Add more resources here — total should be 50+
+    {
+        name: "NetworkChuck",
+        description: "Cybersecurity, networking, and IT tutorials.",
+        url: "https://www.youtube.com/@NetworkChuck",
+        category: "YouTube Channel",
+    },
+    {
+        name: "The Hacker Mindset (LiveOverflow Blog)",
+        description: "Deep articles on hacking to prevent attacks.",
+        url: "https://liveoverflow.com/",
+        category: "Blog",
+    },
+    {
+        name: "TryHackMe",
+        description: "Interactive hacking labs from beginner to pro.",
+        url: "https://tryhackme.com/",
+        category: "Learning Platform",
+    },
+    {
+        name: "PortSwigger Web Security Academy",
+        description: "Learn OWASP Top 10 with real labs.",
+        url: "https://portswigger.net/web-security",
+        category: "Learning Platform",
+    },
+    {
+        name: "OverTheWire: Bandit",
+        description: "Linux command line game teaching vital skills.",
+        url: "https://overthewire.org/wargames/bandit/",
+        category: "Learning Platform",
+    },
+    {
+        name: "Cryptohack",
+        description: "Interactive cryptography puzzles, from XOR to RSA.",
+        url: "https://cryptohack.org/",
+        category: "Learning Platform",
+    },
 ];
