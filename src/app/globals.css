@@ -41,3 +41,48 @@ body {
   from { transform: translateY(-20px); opacity: 0; }
   to   { transform: translateY(0); opacity: 1; }
 }
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.resource-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+.resource-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px #00fff7;
+}
+
+.resource-button h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.resource-button p {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.category {
+  font-size: 0.8rem;
+  color: #7efff5;
+  margin-top: auto;
+  text-align: right;
+}
